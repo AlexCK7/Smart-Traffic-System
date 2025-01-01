@@ -1,3 +1,6 @@
+# Smart-Traffic-System
+A responsive and interactive dashboard for real-time traffic data visualization, designed to monitor, filter, and analyze traffic information with dynamic visualizations and intuitive features.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
