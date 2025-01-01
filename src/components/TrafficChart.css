@@ -1,0 +1,40 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.traffic-chart {
+  padding: 20px;
+}
+
+.traffic-chart.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.traffic-chart.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.summary {
+  margin: 10px 0;
+}
+
+.spinner {
+  margin: 50px auto;
+  border: 5px solid rgba(0, 0, 0, 0.1);
+  border-top: 5px solid #333;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
